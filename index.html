@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>แฟ้มผลงาน – ธนากร กดมงคล</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="sr" href="#app" id="skip">ข้ามไปยังเนื้อหา</a>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#/" aria-label="หน้าแรก">
+      <svg class="brand-mark" viewBox="0 0 38 44" aria-hidden="true"><defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#37c9f2"/><stop offset=".55" stop-color="#1450d6"/><stop offset="1" stop-color="#0a2f8f"/></linearGradient></defs><path d="M19 1.5 36 11.2v21.6L19 42.5 2 32.8V11.2Z" fill="url(#bg1)"/><text x="19" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#fff" font-family="Anuphan,sans-serif">ธ</text></svg>
+      <span><b>แฟ้มผลงาน</b><span>ธนากร กดมงคล</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="เมนูหลัก"></nav>
+    <button class="burger" id="burger" aria-label="เปิดเมนู" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<div class="drawer" id="drawer"></div>
+<main id="app" tabindex="-1"></main>
+<footer class="site"><div class="wrap">
+  <span>แฟ้มผลงานประกอบการประเมินผลการปฏิบัติงาน พนักงานราชการ · 1 เมษายน 2569 – 30 กันยายน 2569</span>
+  <button class="themebtn" id="themebtn" type="button">สลับโหมดสว่าง/มืด</button>
+</div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="ดูภาพขยาย">
+  <div class="lb-top"><span class="lb-cap" id="lbcap"></span>
+    <button class="ibtn" id="lbclose" aria-label="ปิด"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="lb-body">
+    <button class="ibtn lb-prev" id="lbprev" aria-label="ภาพก่อนหน้า"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <img id="lbimg" alt="">
+    <button class="ibtn lb-next" id="lbnext" aria-label="ภาพถัดไป"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
